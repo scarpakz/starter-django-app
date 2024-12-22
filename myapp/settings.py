@@ -32,8 +32,9 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'polls.apps.PollsConfig',
-    'django.contrib.templates',
     'django.contrib.auth',
+    'django.contrib.admin',
+    # 'django.contrib.templates',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
